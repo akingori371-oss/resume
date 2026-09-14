@@ -1,28 +1,56 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anthony's resume</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Anthony Kingori - Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body>
-    <h1>Anthony Kingori Kiarie</h1>
-    <!-- Contact information -->
-         <div>
-        <p><h2>Name:</h2>Anthony Kingori</p>
-        <p><h2>Phone:</h2>0715932545</p>
-        <p><h2>Email:</h2>akingori371@gmail.com</p>
-        <p><h2>Linkedin profile:</h2><a href="https://www.linkedin.com/in/anthonykingori/">Anthony Kingori</a></p>
-        <p><h2>Github:</h2><a href="https://github.com/akingori371-oss/">akingori371-oss</a></p>
-        <p><h2>Title:</h2>Software Engineer</p>
-        
-    </div>
+<body class="bg-slate-100 text-slate-800 font-sans min-h-screen py-10 px-4">
 
-    <!-- Summary Statement -->  
-   <div>
-<p>Junior Software Developer with hands-on experience in HTML, CSS, JavaScript, React, Python, Git, GitHub, and Firebase. Experienced in building responsive web applications, integrating APIs, and developing practical software projects. Seeking an entry-level opportunity to apply my skills, contribute to real-world projects, and grow as a Software Engineer.
-</p>
-    </div>
+    <!-- Resume Container -->
+    <main class="max-w-4xl mx-auto bg-white shadow-lg rounded-xl overflow-hidden border border-slate-200">
+        
+        <!-- Header -->
+        <header class="bg-slate-900 text-white p-8">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                <div>
+                    <h1 class="text-3xl md:text-4xl font-bold tracking-wide">Anthony Kingori Kiarie</h1>
+                    <p class="text-blue-400 font-medium text-lg mt-1">Software Engineer</p>
+                </div>
+                
+                <!-- Quick Contact Info -->
+                <div class="flex flex-col gap-1.5 text-sm text-slate-300">
+                    <p class="hover:translate-x-1 duration-300 flex items-center gap-2">
+                        <i class="fas fa-phone text-blue-400 w-4"></i> 0715932545
+                    </p>
+                    <p  class="hover:translate-x-1 duration-300  flex items-center gap-2">
+                        <i class="fas fa-envelope text-blue-400 w-4"></i> akingori371@gmail.com
+                    </p>
+                    <a href="https://www.linkedin.com/in/anthonykingori/" target="_blank" class="hover:text-blue-400 transition-colors flex items-center gap-2">
+                        <i class="fab fa-linkedin text-blue-400 w-4"></i> linkedin.com/in/anthonykingori
+                    </a>
+                    <a href="https://github.com/akingori371-oss/" target="_blank" class="hover:text-blue-400 transition-colors flex items-center gap-2">
+                        <i class="fab fa-github text-blue-400 w-4"></i> github.com/akingori371-oss
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <div class="p-8 space-y-8">
+            
+            <!-- Professional Summary -->
+            <section>
+                <h2 class="text-xl font-bold text-slate-900 border-b-2 border-blue-600 pb-2 mb-4 uppercase tracking-wider text-xs">
+                    Professional Summary
+                </h2>
+                <p class="text-slate-600 leading-relaxed">
+                    Junior Software Developer with hands-on experience building responsive web applications, integrating RESTful APIs, and implementing front-end solutions using HTML, CSS, JavaScript, and React. Proficient with modern developer workflows using Git, GitHub, and backend services like Firebase. Eager to leverage technical skills in an entry-level Software Engineer role to build scalable solutions and drive impactful projects.
+                </p>
+            </section>
+
+
 </body>
 </html>
